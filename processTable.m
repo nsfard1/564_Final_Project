@@ -4,7 +4,7 @@ tableHeight = height(table);
 tableWidth = width(table);
 
 labels = categorical(tableHeight);
-vars = {'sHops', 'dHops','TotPkts','TotBytes','TotAppByte', 'Dur', 'sTtl', 'dTtl', 'TcpRtt', 'SynAck', 'SrcPkts', 'DstPkts', 'TotAppByte', 'Rate', 'SrcRate', 'DstRate', 'Label'};
+vars = {'sHops','TotPkts','TotBytes','TotAppByte', 'Dur', 'sTtl', 'TcpRtt', 'SynAck', 'SrcPkts', 'DstPkts', 'TotAppByte', 'Rate', 'SrcRate', 'DstRate', 'Label'};
 data_x = table(:, vars);
 
 for i = 1 : tableHeight
