@@ -24,7 +24,7 @@ def convert_label(label):
 
 
 def create_training_set():
-   data = pd.read_csv('~/Desktop/botnet.csv')
+   data = pd.read_csv('botnet.csv')
    data = data[np.isfinite(data['sHops'])]
 
    y = []
